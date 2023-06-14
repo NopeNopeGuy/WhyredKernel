@@ -21,7 +21,7 @@ jobs:
         
       with:
         arch: arm64
-        compiler: proton-clang/master/binutils
+        compiler: clang/15
         defconfig: vendor/bouquet_defconfig
         image: Image.gz-dtb
         
